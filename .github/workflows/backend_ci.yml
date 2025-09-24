@@ -135,3 +135,4 @@ build_and_push_images:
     - name: Logout from ACR
       if: always()
       run: docker logout ${{ env.ACR_LOGIN_SERVER }}
+#kick run
